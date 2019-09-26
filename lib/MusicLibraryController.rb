@@ -30,6 +30,8 @@ class MusicLibraryController
     sorted_songs = Song.all.sort_by do |song|
       song.name
     end
+    sorted_songs
+    binding.pry
   end 
   
 end
