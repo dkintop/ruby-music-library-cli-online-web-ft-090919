@@ -24,4 +24,8 @@ class Artist
     instance.save
     instance
   end  
+  
+  def add_song(name, artist)
+    Song.new(name, self)
+  end
 end
