@@ -33,6 +33,7 @@ class MusicLibraryController
     sorted_songs.each_with_index do |song, index|
       
     binding.pry
+    end 
   end 
   
 end
