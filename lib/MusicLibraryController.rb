@@ -47,7 +47,8 @@ class MusicLibraryController
     #binding.pry
     sorted_genres.each_with_index do |genre, index|
       puts "#{index + 1}. #{genre.name}"
-  end
+    end
+  end 
   
 end
 
