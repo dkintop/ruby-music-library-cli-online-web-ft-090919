@@ -1,10 +1,10 @@
  class Song
 
-  #extend Concerns::Findable
+  
 
   attr_accessor :name
 
-  @@all = [] #this is a collection of all of the songs
+  @@all = [] 
 
   def initialize(name,artist=nil,genre=nil)
     @name = name
