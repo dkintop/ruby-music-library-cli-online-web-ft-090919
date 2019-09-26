@@ -32,7 +32,7 @@ class MusicLibraryController
     end
     sorted_songs.each_with_index do |song, index|
       
-    binding.pry
+   # binding.pry
     end 
   end 
   
