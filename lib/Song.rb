@@ -26,7 +26,7 @@ class Song
     instance
   end 
   
-  def artist=()
+  
   
   
   
