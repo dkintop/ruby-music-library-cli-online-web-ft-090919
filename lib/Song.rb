@@ -25,4 +25,8 @@ class Song
     instance
   end 
   
+  def artist=(artist)
+    artist.addsong(self)
+  end 
+  
 end 
