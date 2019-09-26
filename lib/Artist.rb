@@ -26,8 +26,7 @@ class Artist
     instance
   end  
   
-  def add_song(name)
-    Song.new(name, self)
-    #binding.pry
+  def add_song(song)
+    song.artist = self
   end
 end
