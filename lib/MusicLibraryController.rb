@@ -17,7 +17,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     input = gets.chomp
     
-    
+    case input
     
   end
   
