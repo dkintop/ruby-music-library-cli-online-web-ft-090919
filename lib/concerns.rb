@@ -1,5 +1,5 @@
 module Concerns::Findable
   
- def  
+ d
   
 end
