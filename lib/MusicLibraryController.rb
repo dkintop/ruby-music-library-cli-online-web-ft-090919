@@ -20,10 +20,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     input = gets.chomp
   
-  end
-    
-   
-    
+    end
   end
   
 end 
