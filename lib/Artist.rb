@@ -28,6 +28,6 @@ class Artist
   
   def add_song(name)
     Song.new(name, self)
-    binding.pry
+    #binding.pry
   end
 end
