@@ -1,3 +1,4 @@
+class Artist
   attr_accessor :name 
   @@all = []
   
@@ -18,7 +19,8 @@
   end 
   
   def self.create(name)
-    instance = Song.new(name)
+    instance = Artist.new(name)
     instance.save
     instance
   end  
+end
