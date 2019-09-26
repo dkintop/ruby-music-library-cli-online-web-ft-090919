@@ -38,7 +38,7 @@ class MusicLibraryController
   
   def list_artists
     sorted_artists = Artist.all.sort_by {|artist| artist.name}
-    bining.pry
+    binding.pry
   end 
   
 end
