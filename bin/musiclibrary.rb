@@ -2,7 +2,7 @@
 
 require_relative '../config/environment'
 
-MusicLibraryController.new.call
+selection = MusicLibraryController.new.call
 
   #def call 
    # input = nil 
@@ -20,4 +20,10 @@ MusicLibraryController.new.call
     #input = gets.chomp
   
   #  end
+    #input
   #end
+  
+  if selection = 'list songs'
+    
+  
+  
