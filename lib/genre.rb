@@ -24,4 +24,8 @@ class Genre
     instance.save
     instance
   end  
+  
+  def songs 
+    @songs 
+  end 
 end
