@@ -8,7 +8,7 @@ module Concerns::Findable
   
   def find_or_create_by_name(name)
     
-    find_
+    find_by_name(name)
     
   end 
   
