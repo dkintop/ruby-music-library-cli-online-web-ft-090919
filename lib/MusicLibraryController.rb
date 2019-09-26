@@ -25,7 +25,14 @@ class MusicLibraryController
   
   
   def list_songs 
-    puts Song.all.
+    song_array = Song.all.collect do |song|
+      song.name 
+    end 
+      
   end 
   
-end 
+end
+
+
+
+
