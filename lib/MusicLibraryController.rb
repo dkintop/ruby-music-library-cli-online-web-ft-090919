@@ -86,7 +86,7 @@ class MusicLibraryController
     input =gets.chomp.to_i
     #binding.pry
     song = list_songs[input]
-    binding.pry
+   # binding.pry
      
     
   end 
