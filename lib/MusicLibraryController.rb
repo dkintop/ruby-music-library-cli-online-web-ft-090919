@@ -31,7 +31,7 @@ class MusicLibraryController
       song.name
     end
     sorted_songs.each_with_index do |song, index|
-      puts "#{index+1}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
+      puts "#{index}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
    # binding.pry
     end 
   end 
