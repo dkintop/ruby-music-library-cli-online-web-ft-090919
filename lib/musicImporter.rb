@@ -7,7 +7,7 @@ class MusicImporter
   end 
   
   def files
-    @files = file.read(@path)
+    @files = self.read(@path)
   end 
   
 end 
