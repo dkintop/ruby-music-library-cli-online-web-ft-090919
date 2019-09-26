@@ -1,3 +1,4 @@
+require 'pry'
 class MusicLibraryController
   
   def initialize(path = './db/mp3s')
@@ -27,6 +28,7 @@ class MusicLibraryController
   def list_songs 
     song_array = Song.all.collect do |song|
       song.name 
+      binding.pry
     end 
       
   end 
