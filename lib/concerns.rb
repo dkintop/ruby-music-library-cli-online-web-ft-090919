@@ -1,1 +1,2 @@
-module concerns::findable
+module Concerns::Findable
+end
