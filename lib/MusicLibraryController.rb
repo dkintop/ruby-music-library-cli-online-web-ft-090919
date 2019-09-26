@@ -1,4 +1,5 @@
 require 'pry'
+require_relative 'Song.rb'
 class MusicLibraryController
   
   def initialize(path = './db/mp3s')
