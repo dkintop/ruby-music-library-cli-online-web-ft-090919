@@ -18,4 +18,10 @@ class Song
     @@all << self
   end 
   
+  def create(name)
+    instance = Song.new(name)
+    instance.save
+    instance
+  end 
+  
 end 
