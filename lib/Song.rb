@@ -39,7 +39,10 @@ class Song
     end
     @artist
   end
+  
   def artist
+    @artist 
+  end
   
   
   
