@@ -23,8 +23,12 @@ class MusicLibraryController
     input = gets.chomp
     
     end
-    input
   end
+  
+  case
+  
+  
+  
   
   def list_songs
    sorted_songs = Song.all.sort_by {|song| song.name}
