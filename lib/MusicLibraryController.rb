@@ -30,7 +30,8 @@ class MusicLibraryController
     Song.all.each do |song|
       puts song.name
      
-    binding.pry  
+      binding.pry  
+    end
   end 
   
 end
