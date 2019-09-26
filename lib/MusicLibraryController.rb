@@ -27,7 +27,8 @@ class MusicLibraryController
   
   
   def list_songs 
-    Song.all 
+    Song.all.each do |song|
+      puts song.name
      
     binding.pry  
   end 
