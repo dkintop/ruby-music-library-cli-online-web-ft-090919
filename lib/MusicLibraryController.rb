@@ -26,10 +26,8 @@ class MusicLibraryController
   
   
   def list_songs 
-    song_array = Song.all.collect do |song|
-      song.name 
-      binding.pry
-    end 
+    
+     
       
   end 
   
