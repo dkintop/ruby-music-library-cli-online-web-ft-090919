@@ -47,13 +47,7 @@ class Song
     @artist
   end 
   
-  def genre=(genre)
-    
-    if @genre == nil 
-      @genre = genre 
-    else 
-      @genre = genre
-    end 
+  
     
   
   
