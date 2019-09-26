@@ -41,6 +41,11 @@ class MusicLibraryController
     end 
   end 
   
+  
+  def list_genres
+    sorted_genres = Genre.all.sort_by {|genre| genre.name}
+    binding.pry
+  
 end
 
 
