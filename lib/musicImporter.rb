@@ -12,6 +12,12 @@ class MusicImporter
   #binding.pry
   end 
   
+  def import 
+    
+    
+    
+  end 
+  
   
   
 end 
