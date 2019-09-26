@@ -8,6 +8,7 @@ class Song
     @name = name 
     if artist
       self.artist = artist 
+    end
   end
   
   def self.all 
