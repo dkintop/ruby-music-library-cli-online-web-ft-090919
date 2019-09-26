@@ -26,7 +26,7 @@ class MusicLibraryController
   end
   
   def list_songs
-   sorted_songs = Song.all.sort_by do |song|
+   sorted_songs = Song.all.sort_by  {|song|
       song.name
     end
     #binding.pry
