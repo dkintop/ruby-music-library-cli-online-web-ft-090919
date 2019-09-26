@@ -54,7 +54,7 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
     artist = gets.chomp
     
-    song_list = 
+    song_list = Artist.all.find
   end 
   
   
